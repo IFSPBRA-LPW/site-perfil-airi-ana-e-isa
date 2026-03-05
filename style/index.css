@@ -27,7 +27,7 @@ footer {
 main {
   margin: 0rem;
 }
-section.Primeira-sessão{
+section.Primeira-sessão {
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@ section.Primeira-sessão{
   margin: 0rem 1rem 0rem 1rem;
 }
 
-section.Primeira-sessão div.fundo{
+section.Primeira-sessão div.fundo {
   background-color: #1fa6b6;
   width: 100%;
   height: 100%;
@@ -46,15 +46,30 @@ section.Primeira-sessão div.fundo{
   border-radius: 0.5rem;
 }
 
-section.Primeira-sessão p{
+section.Primeira-sessão p {
   margin: 1rem;
-  text-align:center;
+  text-align: center;
 }
 
-section.sec2{
-  padding-top: 2rem; 
+section.sec2 {
+  padding-top: 2rem;
 }
-
+.medias {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1.5 rem;
+  font-size: 20px;
+}
+section.sec2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.sec2 p {
+  margin: 0.1rem;
+}
 .minhafoto {
   width: 50%;
   aspect-ratio: 1 / 1;
