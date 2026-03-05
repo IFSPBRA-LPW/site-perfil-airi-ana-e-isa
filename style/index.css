@@ -110,3 +110,34 @@ section.sec2 {
   align-items: center;
   gap: 0.4rem;
 }
+@media(min-width:768px){
+  main{
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:flex-start;
+    gap:2rem;
+    max-width: 1000px;
+    margin: auto;
+    width: 30%;
+  }
+  footer{
+    height:10rem;
+    margin-top:10%;
+  }
+  .Primeira-sessão{
+    height:35rem;
+  }
+  .minhafoto{
+    width: 70%;
+    height: 45%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom:2rem;
+  }
+  .sec2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+  }
+}
